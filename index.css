@@ -1,0 +1,88 @@
+li {
+  list-style-type: none;
+}
+.list_value {
+  width: 350px;
+  display: inline-block;
+  color: rgb(248, 244, 244);
+}
+li {
+  min-height: 50px;
+  max-height: 300px;
+  width: 600px;
+  padding: 10px;
+  padding-top: 25px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(56, 54, 54);
+  box-shadow: rgba(250, 249, 249, 0.24) 0px 3px 8px;
+}
+
+._main_div {
+  width: 700px;
+  min-height: 400px;
+  max-height: 100%;
+  background-color: rgb(56, 54, 54);
+  margin: auto;
+  border-radius: 20px;
+  padding: 35px;
+  padding-right: 120px;
+}
+input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(56, 54, 54);
+  margin-left: 10px;
+  margin-top: 30px;
+  border: 2px solid #ffd900;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+
+#button {
+  padding: 8px;
+  border: 2px solid #ffd900;
+  background-color: rgb(56, 54, 54);
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+.edtbtn {
+  background-color: #ffd900;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+
+  color: white;
+}
+
+.delbtn {
+  color: white;
+  background-color: #0026ff;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+  margin-right: 10px;
+}
+
+#remove_button{
+    padding: 8px;
+    border: 2px solid #ffd900;
+    background-color: rgb(56, 54, 54);
+    border-radius: 10px;
+    width: 100px;
+    margin:auto;
+    color: white;
+    margin-bottom: 30px;
+    display: block;
+}
